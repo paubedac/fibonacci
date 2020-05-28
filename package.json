@@ -1,0 +1,45 @@
+{
+  "name": "fibonacci",
+  "version": "1.0.0",
+  "description": "Servicio para obtener el n-esimo termino de la secuencia fibonacci",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src/app.js",
+    "test:unit": "NODE_ENV=test mocha --opts test/unit/mocha.opts"
+  },
+  "dependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/register": "^7.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.1",
+    "@babel/preset-env": "^7.10.1",
+    "@babel/register": "^7.10.1",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-mocha": "^5.3.0",
+    "mocha": "^6.2.3",
+    "sinon": "^7.5.0",
+    "sinon-chai": "^3.3.0"
+  },
+  "author": "Pablo Ubeda",
+  "license": "ISC",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paubedac/fibonacci.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/paubedac/fibonacci/issues"
+  },
+  "homepage": "https://github.com/paubedac/fibonacci#readme"
+}
